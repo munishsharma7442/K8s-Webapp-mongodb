@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mongo-pvc
+  name: pvc-mongo
   annotations:
     volume.beta.kubernetes.io/storage-class: gp2
 spec:
